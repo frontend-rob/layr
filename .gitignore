@@ -42,3 +42,12 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Instructions files
+.instructions.md
+.stylelintrc
+
+# Fonts
+public/assets/fonts/ClashDisplay-Variable.ttf
+public/assets/fonts/FiraCode-Variable.ttf
+public/assets/fonts/InterTight-Variable.ttf
