@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Inter;
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../../public/assets/fonts/Inter-Variable.ttf');
+}
+
+@font-face {
+    font-family: "Clash Display";
+    font-weight: 200 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../../public/assets/fonts/ClashDisplay-Variable.ttf');
+}
+
+@font-face {
+    font-family: "Fira Code";
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../../public/assets/fonts/FiraCode-Variable.ttf');
+}
+
+h1,
+h2,
+h3{
+    font-family: var(--font-heading);
+    font-weight: 500;
+    color: var(--text-primary);
+    text-wrap: pretty;
+}
+
+p {
+    font-family: var(--font-base);
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+}
+
+a {
+    text-decoration: none;
+}
+    

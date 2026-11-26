@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>LAYR</title>
+  <rect width="64" height="64" rx="14" fill="#0d0d0d"/>
+  <g transform="translate(14 16) scale(0.5)" fill="#f4f4f5" stroke="#f4f4f5" stroke-width="4" stroke-linejoin="round">
+    <path d="M0 64 C0 32 22 32 22 0 L40 0 C40 32 18 32 18 64 Z"/>
+    <path transform="translate(32 0)" d="M0 64 C0 32 22 32 22 0 L40 0 C40 32 18 32 18 64 Z"/>
+  </g>
+</svg>

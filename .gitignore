@@ -48,6 +48,6 @@ Thumbs.db
 .stylelintrc
 
 # Fonts
+public/assets/fonts/Inter-Variable.ttf
 public/assets/fonts/ClashDisplay-Variable.ttf
 public/assets/fonts/FiraCode-Variable.ttf
-public/assets/fonts/InterTight-Variable.ttf
