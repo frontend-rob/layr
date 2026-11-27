@@ -1,0 +1,25 @@
+@use '../abstracts/mixins' as *;
+
+.btn {
+    @include button-base;
+}
+
+.btn-primary {
+    background-color: var(--col-primary);
+}
+
+.btn-neutral {
+    color: var(--text-secondary);
+    background-color: var(--bg-neutral-100);
+}
+
+.btn-ghost {
+    color: var(--text-secondary);
+    background-color: unset;
+}
+
+.btn-outline {
+    border: 1.5px solid var(--bg-neutral-300);
+    color: var(--text-muted);
+    background-color: unset;
+}
