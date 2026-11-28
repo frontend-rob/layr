@@ -2,24 +2,28 @@
 
 .btn {
     @include button-base;
-}
-
-.btn-primary {
-    background-color: var(--col-primary);
+    @include button-hover($background: var(--bg-neutral-000));
 }
 
 .btn-neutral {
+    @include button-hover($background: var(--bg-neutral-300), $color: var(--text-primary));
     color: var(--text-secondary);
-    background-color: var(--bg-neutral-100);
+    background-color: var(--bg-neutral-200);
+}
+
+.btn-primary {
+    @include button-hover($background: color-mix(in srgb, var(--col-primary) 80%, var(--bg-neutral-200)));
+    background-color: var(--col-primary);
 }
 
 .btn-ghost {
+    @include button-hover($background: var(--bg-neutral-200), $color: var(--text-primary));
     color: var(--text-secondary);
     background-color: unset;
 }
 
-.btn-outline {
-    color: var(--text-muted);
-    background-color: unset;
-    border: 1.5px solid var(--bg-neutral-300);
+.btn-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
 }
